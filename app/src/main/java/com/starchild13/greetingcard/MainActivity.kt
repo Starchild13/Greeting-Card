@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Starchild")
+                    Greeting("Theo")
                 }
             }
         }
@@ -46,6 +46,6 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     GreetingCardTheme {
-        Greeting("Starchild")
+        Greeting("Theo")
     }
 }
